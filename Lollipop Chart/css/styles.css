@@ -1,0 +1,206 @@
+body {
+    background-color: white;
+    padding: 20px;
+}
+
+#jaws-text-1 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-bottom: 50px;
+}
+
+#jaws-text-2 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-bottom: 50px;
+}
+
+#jaws-year {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+}
+
+#nj-incident-text {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#hook-text-1 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#hook-text-2 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#hook-text-3 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#line-plot-text-1 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#countries-text-1 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#species-text-1 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#activities-text-1 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#shark-population-text-1 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#ocean-reliance-text-1 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#actions-text-1 {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#actions-list-1 {
+    color: #0a569a;
+    font-size: 30px;
+    font-family: Georgia;
+}
+
+#shark-bites-counter {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#human-fatalities-counter {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#shark-fatalities-counter {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+
+#air-breathe-question {
+    color: #0a569a;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+
+/*
+CSS for Scrollama functionality (https://github.com/russellsamora/scrollama)
+ */
+
+#scrolly {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f3f3f3;
+    padding: 1rem;
+}
+
+#scrolly > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+article {
+    position: relative;
+    padding: 0 1rem;
+    max-width: 50rem;
+}
+
+.sticky-thing {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: #8a8a8a;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sticky-thing p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.step {
+    margin: 0 auto 2rem auto;
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+.step:last-child {
+    margin-bottom: 0;
+}
+
+.step.is-active {
+    background-color: goldenrod;
+    color: #3b3b3b;
+}
+
+.step p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}

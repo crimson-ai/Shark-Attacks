@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- CSS for Easy Scroll Dots -->
+    <link rel="stylesheet" type="text/css" href="css/easyScrollDots.min.css" />
+
+    <title>Come on in, the water's fine!</title>
+
+</head>
+<body>
+
+<main>
+
+    <section id="scrolly">
+        <article>
+
+            <div class="container-fluid">
+
+                <div class="row step justify-content-center" data-step="1">
+                    <div data-scroll-indicator-title="Introduction">
+                        <div id="jaws-text-1"  class="col-8 border">
+                            "There is a creature alive today which has survived millions of years of evolution... without change, without passion, without logic...
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center" data-step="2">
+                    <div data-scroll-indicator-title="Introduction">
+                        <div id="jaws-text-2" class="col-8 border">
+                            ... It lives to kill.  A mindless eating machine, it will attack and devour anything."
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center" data-step="3">
+                    <div data-scroll-indicator-title="Vilification">
+                        <div id="jaws-year"  class="col-8 border">
+                            <i>- Jaws</i> (1975)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center" data-step="4">
+                    <div data-scroll-indicator-title="Level Set">
+                        <div id="nj-incident-text" class="col-8 border">
+                            In July 1916, five people were "attacked" by sharks while swimming along the coast of New Jersey.  Since then, the media and popular culture have unjustly characterized sharks as predators with an insatiable appetite for human flesh.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Redefining Our Relationship">
+                        <div id="hook-text-1" class="col-8 border">
+                            But, <i>nothing</i> could be further from the truth.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Changing Perception">
+                        <div id="hook-text-2" class="col-8 border">
+                            What if we were to redefine the relationship we have with sharks to one based on <strong>scientific data</strong> rather than one based on limited an biased information?
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Baz4">
+                        <div id="hook-text-3" class="col-8 border">
+                            In the visual story that unfolds, we will show you how changing the way we <i>perceive</i> sharks could change our environment, our economies, and our lives for the better.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- shark bites counter (see text in countUp.js file) -->
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Shark Bites">
+                        <div id="shark-bites-counter" class="col-8 border">
+                            0
+                        </div>
+                    </div>
+                </div>
+
+                <!-- human fatalities counter (see text in countUp.js file) -->
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Shark Fatalities">
+                        <div id="human-fatalities-counter" class="col-8 border">
+                            0
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Temporal Analysis">
+                        <div id="line-plot-text-1" class="col-8 border">
+                            But, the media wants us to believe that shark "attacks" (let's not refer to them as such) are becoming more prevalent.  Is this true?
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Line Plot">
+                        <div id="line-plot-div" class="col-8 border">
+                            <!-- placeholder for line plot -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Countries">
+                        <div id="countries-text-1" class="col-8 border">
+                            The vast majority of the recorded shark encounters have occurred in the <strong>United States</strong>, <strong>Australia</strong>, and <strong>South Africa</strong>.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Countries">
+                        <div id="map-div" class="col-8 border">
+                            <!-- placeholder for choropleth -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Activities">
+                        <div id="activities-text-1" class="col-8 border">
+                            What were people doing when they encountered a shark?
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Activities">
+                        <div id="activities-bar-chart" class="col-8 border">
+                            <!-- activities bar plot goes here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Aggressive Species">
+                        <div id="species-text-1" class="col-8 border">
+                            There are more than <strong>500</strong> species of sharks.  Only about <strong>20</strong> species have even bitten a human.
+                            <br>
+                            There are <strong>3</strong> species that account for more than <strong>half</strong> of the total number of bites and nearly <strong>90%</strong> of the total number of fatalities.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Aggressive Species">
+                        <div id="shark-photos" class="col-8 border">
+                            <img src="./assets/white-shark.jpg" alt="Photo of a white shark.">
+                            <br>
+                            <br>
+                            <img src="./assets/tiger-shark.jpg" alt="Photo of a tiger shark.">
+                            <br>
+                            <br>
+                            <img src="./assets/bull-shark.jpg" alt="Photo of a bull shark.">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Species">
+                        <div id="bee-swarm-plot" class="col-8 border">
+                            <!-- placeholder for bee swarm plot -->
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- shark fatalities counter (see text in countUp.js file) -->
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Shark Fatalities">
+                        <div id="shark-fatalities-counter" class="col-12 border">
+                            0
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Population Decline">
+                        <div id="shark-population-text-1">
+                            Since the 1970s, shark populations have declined by a staggering 70%.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Question">
+                        <div id="shark-fatalities-question" class="col-8 border">
+                            What percentage of the air we breathe comes from the ocean?
+                            <br>
+                            <form id="shark-fatalities-form"  onsubmit="return false">
+                                <input placeholder="Enter % between 0-100" type="number" id="shark-fatalities-number"  min="0"value="">
+                                <input type="submit" class="shark-fatalities-button" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Buzz">
+                        <div id="ocean-reliance-text-1" class="col-8 border">
+                            Either directly or indirectly, we all rely on the oceans.  <strong>Billions</strong> of people rely on the oceans for seafood, while more than <strong>200 million</strong> people rely on the oceans for employment.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Visual Journey">
+                        <div id="caption-8" class="col-8 border">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Question">
+                        <div id="air-breathe-question" class="col-8 border">
+                            What percentage of the air we breathe comes from the ocean?
+                            <br>
+                            <form id="air-breathe-form"  onsubmit="return false">
+                                <input placeholder="Enter % between 0-100" type="number" id="air-breathe-number"  min="0" max="100" value="">
+                                <input type="submit" class="air-breathe-button" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row step justify-content-center">
+                    <div data-scroll-indicator-title="Actions">
+                        <div id="actions-text-1">
+                            What can <strong><i>you</i></strong> do to help?
+                        </div>
+                        <div id="actions-list-1">
+                            <ul>
+                                <li>Donate money to shark conservation causes.  A few worthy causes include:</li>
+                                <ul>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://www.atlanticwhiteshark.org/">Atlantic White Shark Conservancy</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://www.sharks.org/">Shark Research Institute</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://www.floridamuseum.ufl.edu/shark-attacks/">Florida Museum of Natural History</a>
+                                    </li>
+
+                                </ul>
+                                <li>Do not eat shark fin soup (and discourage businesses from selling it).</li>
+                                <li>Do not consume shark meat.</li>
+                                <li>Do not purchase souvenirs or pharmaceuticals made from shark body parts.</li>
+                                <li>Further educate yourself and raise awareness about the plight of sharks.</li>
+                                <li>Oh, and don't refer to encounters between sharks and humans as "attacks" (by now, you should know that they don't "attack" us).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </article>
+
+        <div class="sticky-thing">
+            <p>0</p>
+        </div>
+
+    </section>
+
+    <section id="outro"></section>
+
+</main>
+
+<!-- - - - - - - - - - - - - - - - - - - >
+<     Load the JavaScript Libraries      >
+<- - - - - - - - - - - - - - - - - - - -->
+
+<!--  D3  -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<!-- JS for Easy Scroll Dots -->
+<script type="text/javascript" src="js/easyScrollDots.min.js"></script>
+
+<!-- JS for CountUp.js library -->
+<script src="https://inorganik.github.io/countUp.js/dist/countUp.umd.js"></script>
+
+<!-- Scrollama library -->
+<script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+<script src="https://unpkg.com/scrollama"></script>
+
+<!--  Self JavaScript  -->
+<script src="js/barChart.js"></script>
+<script src="js/lineChart.js"></script>
+<script src="js/main.js"></script>
+<script src="js/countUp.js"></script>
+
+
+
+<!-- Initialize Easy Scroll Dots js -->
+<script>
+    easyScrollDots({
+        'fixedNav': false,
+        'fixedNavId': '',
+        'fixedNavUpward': false,
+        'offset': 0
+    });
+</script>
+
+
+<!-- Scrollama -->
+<script>
+
+    let main = document.querySelector('main');
+    let scrolly = main.querySelector('#scrolly');
+    let sticky = scrolly.querySelector('.sticky-thing');
+    let article = scrolly.querySelector('article');
+    let steps = article.querySelectorAll('.step');
+
+    // Initialize the Scrollama
+    let scroller = scrollama();
+
+    // Scrollama event handlers
+    function handleStepEnter(response) {
+
+        // response = { element, direction, index }
+        var el = response.element;
+
+        // remove is-active from all steps
+        // then, add is-active to this step
+        steps.forEach(step => step.classList.remove('is-active'));
+        el.classList.add('is-active');
+
+        // update graphic based on step
+        sticky.querySelector('p').innerText = el.dataset.step;
+
+    }
+
+    function init() {
+        scroller
+            .setup({
+                step: '#scrolly article .step',
+                offset: 0.33,
+                debug: false
+            })
+            .onStepEnter(handleStepEnter);
+
+        // set up resize event
+        window.addEventListener('resize', scroller.resize);
+    }
+
+    // start Scrollama
+    init();
+
+</script>
+
+
+</body>
+</html>

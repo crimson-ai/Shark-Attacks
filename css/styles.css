@@ -1,0 +1,1806 @@
+a {
+    color: blue;
+    text-decoration: underline blue;
+
+}
+
+a:hover {
+    color: blue;
+}
+
+html{scroll-behavior: smooth}
+
+.blink {
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: white;
+    padding: 20px;
+}
+
+img {
+    box-shadow: 0px 0px 5px lightgrey;
+}
+
+#animated-ocean-gif {
+    background-image: url('/assets/ocean-video.gif');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-right: 4rem;
+    margin-bottom: 5em;
+}
+
+.line {
+    fill: none;
+/*    stroke: #456983; */
+    stroke: crimson;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+#line-plot-user-selection {
+    margin-left: 100px;
+}
+
+#opening-text {
+    color: #456983;
+    font-family: Georgia;
+    font-size: 85px;
+    margin-top: 180px;
+}
+
+#jaws-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#jaws-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#jaws-year {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+}
+
+#project-title-text-1 {
+    color: #456983;
+    font-size: 70px;
+    font-family: Arial;
+    padding-top: 100px;
+}
+
+#project-title-text-2 {
+    color: #456983;
+    font-size: 40px;
+    font-family: Arial;
+    padding-bottom: 100px;
+}
+
+#nj-incident-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#nj-incident-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#hook-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#hook-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#hook-text-3 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-bites-misconception-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-bites-misconception-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#human-fatalities-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#line-plot-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#line-plot-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#line-plot-text-3 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#countries-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#countries-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#species-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+    padding: 30px;
+}
+
+#species-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+    padding: 30px;
+}
+
+#white-shark-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#white-shark-text-2 {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia;
+    padding-left: 30px;
+}
+
+#white-shark-text-3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#white-shark-text-4 {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 30px;
+}
+
+#white-shark-text-5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#white-shark-text-6 {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 30px;
+}
+
+#white-shark-text-7 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#white-shark-text-8 {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+#tiger-shark-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#tiger-shark-text-2 {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia;
+    padding-left: 30px;
+}
+
+#tiger-shark-text-3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#tiger-shark-text-4 {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 30px;
+}
+
+#tiger-shark-text-5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#tiger-shark-text-6 {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 30px;
+}
+
+#tiger-shark-text-7 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#tiger-shark-text-8 {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+#bull-shark-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#bull-shark-text-2 {
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia;
+    padding-left: 30px;
+}
+
+#bull-shark-text-3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#bull-shark-text-4 {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 30px;
+}
+
+#bull-shark-text-5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#bull-shark-text-6 {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 30px;
+}
+
+#bull-shark-text-7 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Georgia;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#bull-shark-text-8 {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+#activities-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#activities-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+.bar-chart-title {
+    font-size: 25px;
+    font-weight: 600;
+    fill: #456983;
+}
+
+.line-chart-title {
+    font-size: 25px;
+    font-weight: 600;
+    fill: #456983;
+}
+
+#evolution-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#evolution-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#evolution-text-3 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#evolution-text-4 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#evolution-plot {
+    margin-top: 100px;
+}
+
+#shark-population-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-population-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-population-text-3 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-population-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-population-text-3 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-population-text-4 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-population-text-5 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-population-text-6 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-population-text-7 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-population-text-8 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+
+#ocean-reliance-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#ocean-reliance-text-2 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#ocean-reliance-text-3 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#actions-text-1 {
+    color: #456983;
+    font-size: 50px;
+    font-family: Arial;
+    padding: 30px;
+}
+
+#actions-text-2 {
+    color: #456983;
+    font-size: 50px;
+    font-family: Arial;
+    padding: 30px;
+}
+
+#actions-text-3 {
+    color: #456983;
+    font-size: 50px;
+    font-family: Arial;
+    padding: 30px;
+}
+
+#actions-list-1 {
+    color: #456983;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#references-text-1 {
+    color: #456983;
+    font-size: 50px;
+    font-family: Arial;
+    margin-top: 100px;
+}
+
+#references-text-2 {
+    color: #456983;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#shark-bites-counter {
+    color: #456983;
+    font-size: 70px;
+    font-family: Arial;
+    padding: 30px;
+}
+
+#human-fatalities-counter {
+    color: #456983;
+    font-size: 70px;
+    font-family: Arial;
+    padding: 30px;
+}
+
+#shark-fatalities-counter-annually {
+    color: crimson;
+    font-size: 100px;
+    font-family: arial;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+#shark-fatalities-text-1 {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-fatalities-hourly {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#shark-fatalities-seconds {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding: 30px;
+}
+
+#air-breathe-question {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia;
+    padding-top: 100px;
+}
+
+#our-team-text {
+    color: #456983;
+    font-size: 50px;
+    font-family: Arial;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+#ryan-name {
+    color: #456983;
+    font-size: 30px;
+    font-family: Arial;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#karim-name {
+    color: #456983;
+    font-size: 30px;
+    font-family: Arial;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#mj-name {
+    color: #456983;
+    font-size: 30px;
+    font-family: Arial;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+
+#ryan-text-1 {
+    color: #456983;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 30px;
+}
+
+#mj-text-1 {
+    color: #456983;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 30px;
+}
+
+#karim-text-1 {
+    color: #456983;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 30px;
+}
+
+
+#ryan-text-2 {
+    color: #456983;
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#mj-text-2 {
+    color: #456983;
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#karim-text-2 {
+    color: #456983;
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+
+#map-div {
+    height: 400px;
+}
+
+#outro {
+    height: 680px;
+}
+
+/*
+Initial scroll icon
+*/
+
+.initial-scroll a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 25px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+.initial-scroll a:hover {
+    opacity: .5;
+}
+
+opening-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#initial-scroll-icon {
+    height: 50vh;
+}
+
+#section-1 a {
+    padding-top: 70px;
+}
+#section-1 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+@keyframes sdb05 {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+#section-1 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg05.jpg) center center / cover no-repeat;}
+
+/*
+CSS for Scrollama functionality (https://github.com/russellsamora/scrollama)
+ */
+
+#scrolly-1 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    background-color: white;
+    padding: 1rem;
+}
+
+#scrolly-1 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-2 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-3 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-3 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-4 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-4 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-5 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-5 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-6 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-6 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-7 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-7 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-8a {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-8a > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-8b {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-8b > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-8c {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-8c > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-9a {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-9a > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-9b {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-9b > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-9c {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+    margin-top: 100px;
+}
+
+#scrolly-9c > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-9d {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-9d > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-10 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+    margin-top: 100px;
+}
+
+#scrolly-10 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-11 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-11 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-12 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-12 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-13 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-13 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-14 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-14 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-15 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-15 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#scrolly-15a {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    background-color: #f3f3f3; */
+    padding: 1rem;
+}
+
+#scrolly-15a > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+
+
+article {
+    position: relative;
+    padding: 0 1rem;
+    max-width: 50rem;
+}
+
+.sticky-thing-1 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    background-image: url('/assets/philadelphia-inquirer.JPG'); */
+    background-size: cover;
+
+}
+
+.sticky-thing-1 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-2 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/jaws-image.jpg');
+    background-size: cover;
+}
+
+.sticky-thing-2 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-3 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/ocean-shark-touch.jpeg');
+    background-size: cover;
+}
+
+.sticky-thing-3 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-4 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 50vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-4 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-5 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-5 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-6 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-6 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.sticky-thing-7 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-7 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-8a p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-8a {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 50vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-8b p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-8b {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 50vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-8c p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-8c {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 50vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-9a p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-9a {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 50vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-9b p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-9b {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 50vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('/assets/white-shark.jpg'); */
+    background-size: cover;
+}
+
+.sticky-thing-9c p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-9c {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 50vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('/assets/white-shark.jpg'); */
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.sticky-thing-9d p {
+    padding: 1rem;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #456983;
+}
+
+.sticky-thing-9d {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: lightgrey;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('/assets/white-shark.jpg'); */
+    background-size: cover;
+}
+
+
+
+.sticky-thing-10 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-10 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    background-image: url('/assets/bycatch.jpg'); */
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.sticky-thing-11 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-11 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: #8a8a8a;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-12 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-12 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-13 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-13 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: #8a8a8a;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-14 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-14 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: #8a8a8a;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-15 p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-15 {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 50vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+.sticky-thing-15a p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.sticky-thing-15a {
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    z-index: 0;
+    top: 12.5vh;
+    height: 75vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*    background-image: url('/assets/ocean-shark-touch.jpeg'); */
+    background-size: cover;
+}
+
+
+.step {
+    margin: 0 auto 2rem auto;
+    background-color: white;
+    color: #fff;
+}
+
+.step:last-child {
+    margin-bottom: 0;
+}
+
+.step.is-active {
+/*    background-color: #0a569a;  */
+    background-color: #456983;
+    color: #3b3b3b;
+    border-radius: 20px;
+}
+
+.step p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/* ############### */
+/* Blood animation */
+/* ############### */
+
+
+.drop {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: -30px;
+    margin: 0 auto;
+    background: #F00;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-animation-name: drip;
+    -webkit-animation-name: drip;
+    animation-name: drip;
+    -moz-animation-timing-function: cubic-bezier(1,0,.91,.19);
+    -webkit-animation-timing-function: cubic-bezier(1,0,.91,.19);
+    animation-timing-function: cubic-bezier(1,0,.91,.19);
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.drop:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 30px solid rgba(255,0,0,1);
+    top: -22px;
+}
+
+.wave {
+    position: relative;
+    opacity: 0;
+    top: 0;
+    width: 2px;
+    height: 1px;
+    border: #F00 7px solid;
+    -moz-border-radius: 300px / 150px;
+    -webkit-border-radius: 300px / 150px;
+    border-radius: 300px / 150px;
+    -moz-animation-name: ripple;
+    -webkit-animation-name: ripple;
+    animation-name: ripple;
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.wave:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    top: -5px;
+    left: -5px;
+    width: 2px;
+    height: 1px;
+    border: #F00 5px solid;
+    -moz-border-radius: 300px / 150px;
+    -webkit-border-radius: 300px / 150px;
+    border-radius: 300px / 150px;
+    -moz-animation-name: ripple-2;
+    -webkit-animation-name: ripple-2;
+    animation-name: ripple-2;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ripple {
+    from {
+        opacity: 1;
+    }
+    to {
+        width: 600px;
+        height: 300px;
+        border-width: 1px;
+        top: -100px;
+        opacity: 0;
+    }
+}
+
+@keyframes ripple-2 {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        width: 200px;
+        height: 100px;
+        border-width: 1px;
+        top: 100px;
+        left: 200px;
+    }
+}
+
+@keyframes drip {
+    to {
+        top: 190px;
+    }
+}
+
+#blood-drip {
+    margin-top: 50px;
+    width: 100%;
+    height: 75vh;
+}
+
